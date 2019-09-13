@@ -1,2 +1,2 @@
 # SushiAndroid
-School project about sushi Android app
+:sushi:School project about sushi Android app
