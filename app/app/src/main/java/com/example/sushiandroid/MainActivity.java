@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,9 +15,29 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openApp(View v) {
-        Intent intent = new Intent(this,Main2.class);
-        startActivity(intent);
+    public void goToNigiri(View v) {
+        String title = "Nigiri";
+        Intent i = new Intent(this, Category.class);
+        i.putExtra("title",(String) title);
+        startActivity(i);
+    }
+    public void goToShasimi(View v) {
+        String title = "Shasimi";
+        Intent i = new Intent(this, Category.class);
+        i.putExtra("title",(String) title);
+        startActivity(i);
+    }
+    public void goToUramaki(View v) {
+        String title = "Uramaki";
+        Intent i = new Intent(this, Category.class);
+        i.putExtra("title",(String) title);
+        startActivity(i);
+    }
+    public void goToMaki(View v) {
+        String title = "Maki";
+        Intent i = new Intent(this, Category.class);
+        i.putExtra("title",(String) title);
+        startActivity(i);
     }
 
 }

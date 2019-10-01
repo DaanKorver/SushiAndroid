@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="openApp"
     tools:context=".MainActivity">
 
     <android.support.constraint.ConstraintLayout
@@ -16,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/background2"
+            android:id="@+id/categoryBackground"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="false"
@@ -24,7 +23,7 @@
             app:srcCompat="@drawable/background" />
 
         <ImageView
-            android:id="@+id/backgroundWhiten2"
+            android:id="@+id/backgroundWhiten"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:adjustViewBounds="false"
@@ -33,18 +32,18 @@
             app:srcCompat="@android:color/white" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/titleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:background="#FFFFFF"
             android:gravity="center"
-            android:padding="40dp"
+            android:padding="25dp"
             android:text="@string/app_name"
             android:textAllCaps="true"
             android:textSize="32sp"
             app:autoSizeTextType="none"
-            app:layout_constraintBottom_toBottomOf="@+id/backgroundWhiten2"
+            app:layout_constraintBottom_toBottomOf="@+id/backgroundWhiten"
             app:layout_constraintTop_toTopOf="parent" />
 
     </android.support.constraint.ConstraintLayout>
@@ -72,7 +71,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:background="#e1e1e1">
+                android:background="#e1e1e1"
+                android:onClick="goToNigiri">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -121,7 +121,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:background="#e1e1e1">
+                android:background="#e1e1e1"
+                android:onClick="goToShasimi">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -171,7 +172,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:background="#e1e1e1">
+                android:background="#e1e1e1"
+                android:onClick="goToUramaki">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -212,7 +214,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/uramki" />
+                    app:srcCompat="@drawable/uramaki" />
 
             </android.support.constraint.ConstraintLayout>
 
@@ -220,7 +222,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="15dp"
-                android:background="#e1e1e1">
+                android:background="#e1e1e1"
+                android:onClick="goToMaki">
 
                 <LinearLayout
                     android:layout_width="0dp"
