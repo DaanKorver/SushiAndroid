@@ -52,11 +52,9 @@
         android:id="@+id/nestedScrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
         android:fillViewport="true"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +70,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:background="#e1e1e1"
-                android:onClick="goToNigiri">
+                android:onClick="createFoodGroup"
+                android:tag="Nigiri">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -122,7 +121,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:background="#e1e1e1"
-                android:onClick="goToShasimi">
+                android:onClick="createFoodGroup"
+                android:tag="Shasimi">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -173,7 +173,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:background="#e1e1e1"
-                android:onClick="goToUramaki">
+                android:onClick="createFoodGroup"
+                android:tag="Uramaki">
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -223,7 +224,8 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="15dp"
                 android:background="#e1e1e1"
-                android:onClick="goToMaki">
+                android:onClick="createFoodGroup"
+                android:tag="Maki">
 
                 <LinearLayout
                     android:layout_width="0dp"

@@ -6,6 +6,11 @@
     <string name="shasimi_text">Sashimi is rauwe vis die zonder rijst word opgediend. De plakjes vis worden gegarneerd met wat zeewier onder de vis. Geserveerd als setje van zes plakjes.</string>
     <string name="uramaki_title">Uramaki</string>
     <string name="uramaki_text">Bij deze sushi wordt er meestal gebruik gemaakt van twee of meer soorten vullingen. Bij de Uramaki zitten de vulling en de zeewier aan de binnenkant.</string>
-    <string name="maki_title">maki</string>
+    <string name="maki_title">Maki</string>
     <string name="maki_text">De Maki wordt gemaakt van rijst en een vulling van vis, groente of ei en gerold in zeewier. De sushi-chef snijdt de ro vervolgens in vier of acht kleinere stukjes.</string>
+
+    <string name="a">Tonijn</string>
+    <string name="b">Miami</string>
+    <string name="c">Zalm</string>
+    <string name="d">Krab</string>
 </resources>

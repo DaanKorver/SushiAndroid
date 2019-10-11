@@ -1,8 +1,11 @@
 package com.example.sushiandroid;
 
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class Category extends AppCompatActivity {
@@ -21,9 +24,11 @@ public class Category extends AppCompatActivity {
 
             textView.setText((String) title);
             assert title != null;
-            switch((String) title.toLowerCase()) {
+            switch ((String) title.toLowerCase()) {
                 case "nigiri":
                     imageView.setImageResource(R.drawable.nigiri);
+                    String nigiriArray[] = {"a","b","c","d"};
+                    drawProducts(nigiriArray);
                     break;
                 case "shasimi":
                     imageView.setImageResource(R.drawable.nigiri);
@@ -38,8 +43,16 @@ public class Category extends AppCompatActivity {
                     // code block
             }
         }
+    }
 
-
-
+    public void drawProducts(String products[]) {
+        LinearLayout ll = (LinearLayout) findViewById(R.id.ll);
+        for (String product : products) {
+            ConstraintLayout holder = new ConstraintLayout(this);
+            TextView text = new TextView(this);
+            text.setText((String) product);
+            holder.addView(text);
+            ll.addView(holder);
+        }
     }
 }
