@@ -39,17 +39,23 @@ public class Category extends AppCompatActivity {
             switch ((String) title.toLowerCase()) {
                 case "nigiri":
                     imageView.setImageResource(R.drawable.nigiri);
-                    String[] nigiriArray = {"nigiri A", "nigiri B", "nigiri C", "nigiri D"};
+                    String nigiriArray[] = {"nigiri_tonijn", "nigiri_miami", "nigiri_krab", "nigiri_omelet", "nigiri_palling"};
                     drawProducts(nigiriArray);
                     break;
                 case "shasimi":
                     imageView.setImageResource(R.drawable.nigiri);
+                    String shasimiArray[] = {"shasimi_tataki_van_zalm", "shasimi_menu_zalm", "shasimi_mix", "shasimi_tonijn", "shasimi_zalm"};
+                    drawProducts(shasimiArray);
                     break;
                 case "uramaki":
                     imageView.setImageResource(R.drawable.uramaki);
+                    String uramakiArray[] = {"uramaki_pittig_tonijn", "uramaki_california", "uramaki_zalm", "uramaki_zeewier", "uramaki_vegetarisch", "uramaki_tempura_ebi"};
+                    drawProducts(uramakiArray);
                     break;
                 case "maki":
                     imageView.setImageResource(R.drawable.maki);
+                    String makiArray[] = {"maki_avocado", "maki_zalm", "maki_komkommer", "maki_garnaal", "maki_daikon", "maki_tonijn"};
+                    drawProducts(makiArray);
                     break;
                 default:
                     // code block

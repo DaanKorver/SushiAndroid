@@ -1,4 +1,4 @@
-<resources>
+ <resources>
     <string name="app_name">All Day Sushi</string>
     <string name="nigiri_title">Nigiri</string>
     <string name="nigiri_text">Nigiri is een sushi soort waarbij een stukje vis op een bedje van rijst wordt geled. De warmte van de rijst vult de koude vis aan.</string>
@@ -9,8 +9,30 @@
     <string name="maki_title">Maki</string>
     <string name="maki_text">De Maki wordt gemaakt van rijst en een vulling van vis, groente of ei en gerold in zeewier. De sushi-chef snijdt de ro vervolgens in vier of acht kleinere stukjes.</string>
 
-    <string name="a">Tonijn</string>
-    <string name="b">Miami</string>
-    <string name="c">Zalm</string>
-    <string name="d">Krab</string>
+    <!-- TEXT FOR DETAILS -->
+    <string name="nigiri_tonijn">Tonijn</string>
+    <string name="nigiri_miami">Miami</string>
+    <string name="nigiri_krab">Krab</string>
+    <string name="nigiri_omelet">Omelet</string>
+    <string name="nigiri_palling">Palling</string>
+
+    <string name="shasimi_tataki_van_zalm">Tataki Van Zalm</string>
+    <string name="shasimi_menu_zalm">Menu Zalm</string>
+    <string name="shasimi_mix">Mix</string>
+    <string name="shasimi_tonijn">Tonijn</string>
+    <string name="shasimi_zalm">Zalm</string>
+
+    <string name="uramaki_pittig_tonijn">Pittig Tonijn</string>
+    <string name="uramaki_california">California</string>
+    <string name="uramaki_zalm">Zalm</string>
+    <string name="uramaki_zeewier">Zeewier</string>
+    <string name="uramaki_vegetarisch">Vegetarisch</string>
+    <string name="uramaki_tempura_ebi">Tempura Ebi</string>
+
+    <string name="maki_avocado">Avocado</string>
+    <string name="maki_zalm">Zalm</string>
+    <string name="maki_komkommer">Komkommer</string>
+    <string name="maki_garnaal">Garnaal</string>
+    <string name="maki_daikon">Daikon</string>
+    <string name="maki_tonijn">Tonijn</string>
 </resources>
