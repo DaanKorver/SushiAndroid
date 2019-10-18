@@ -4,20 +4,102 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="379dp"
-        android:layout_height="699dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp">
+    <ImageView
+        android:id="@+id/nigiri"
+        android:layout_width="421dp"
+        android:layout_height="227dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/nigiri" />
 
-        <ImageView
-            android:id="@+id/nigiri"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="Niggeri"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textIsSelectable="false"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nigiri"
+        app:layout_constraintEnd_toEndOf="@+id/nigiri"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/nigiri"
+        app:layout_constraintTop_toTopOf="@+id/nigiri" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:text="Back"
+        android:textAllCaps="true"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TableLayout
+        android:layout_width="387dp"
+        android:layout_height="501dp"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nigiri"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            tools:srcCompat="@drawable/nigiri" />
+            android:layout_height="153dp"
+            android:background="#ccc">
 
-    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="288dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    tools:srcCompat="@tools:sample/avatars[0]" />
+
+
+            </LinearLayout>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </TableLayout>
+
+
 </android.support.constraint.ConstraintLayout>
