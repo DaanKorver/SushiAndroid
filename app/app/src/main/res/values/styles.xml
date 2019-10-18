@@ -18,6 +18,17 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+<<<<<<< HEAD
+=======
+    <style name="holder" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#e1e1e1</item>
+        <!--todo: why isn't the margin working but the background is?-->
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+>>>>>>> 29138dfd7ea6a2cbc097dabe4684b874dc9009a0
     <style name="image" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:background">#999</item>
         <item name="android:layout_width">75dp</item>
@@ -37,6 +48,7 @@
         <item name="layout_constraintStart_toStartOf">parent</item>
     </style>
 
+<<<<<<< HEAD
     <style name="holder">
         <item name="android:background">#e1e1e1</item>
         <!--todo: why isn't the margin working but the background is?-->
@@ -45,4 +57,6 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+=======
+>>>>>>> 29138dfd7ea6a2cbc097dabe4684b874dc9009a0
 </resources>

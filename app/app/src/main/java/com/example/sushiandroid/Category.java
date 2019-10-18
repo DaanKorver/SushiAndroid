@@ -38,31 +38,25 @@ public class Category extends AppCompatActivity {
             assert title != null;
             switch ((String) title.toLowerCase()) {
                 case "nigiri":
-                    Food tonijn  = new Food("Tonijn", "This is a test", 3.95);
-                    Food miami   = new Food("Miami", "This is a test", 3.95);
-                    Food krab    = new Food("Krab", "This is a test", 4.95);
-                    Food omelet  = new Food("Omelet", "This is a test", 3.95);
-                    Food palling = new Food("Palling", "This is a test", 8.95);
-
                     imageView.setImageResource(R.drawable.nigiri);
-                    String[] nigiriArray = {"nigiri_tonijn", "nigiri_miami", "nigiri_krab", "nigiri_omelet", "nigiri_palling"};
+                    String nigiriArray[] = {"nigiri_tonijn", "nigiri_miami", "nigiri_krab", "nigiri_omelet", "nigiri_palling"};
                     drawProducts(nigiriArray);
                     break;
-//                case "shasimi":
-//                    imageView.setImageResource(R.drawable.nigiri);
-//                    String[] shasimiArray = {"shasimi_tataki_van_zalm", "shasimi_menu_zalm", "shasimi_mix", "shasimi_tonijn", "shasimi_zalm"};
-//                    drawProducts(shasimiArray);
-//                    break;
-//                case "uramaki":
-//                    imageView.setImageResource(R.drawable.uramaki);
-//                    String[] uramakiArray = {"uramaki_pittig_tonijn", "uramaki_california", "uramaki_zalm", "uramaki_zeewier", "uramaki_vegetarisch", "uramaki_tempura_ebi"};
-//                    drawProducts(uramakiArray);
-//                    break;
-//                case "maki":
-//                    imageView.setImageResource(R.drawable.maki);
-//                    String[] makiArray = {"maki_avocado", "maki_zalm", "maki_komkommer", "maki_garnaal", "maki_daikon", "maki_tonijn"};
-//                    drawProducts(makiArray);
-//                    break;
+                case "shasimi":
+                    imageView.setImageResource(R.drawable.nigiri);
+                    String shasimiArray[] = {"shasimi_tataki_van_zalm", "shasimi_menu_zalm", "shasimi_mix", "shasimi_tonijn", "shasimi_zalm"};
+                    drawProducts(shasimiArray);
+                    break;
+                case "uramaki":
+                    imageView.setImageResource(R.drawable.uramaki);
+                    String uramakiArray[] = {"uramaki_pittig_tonijn", "uramaki_california", "uramaki_zalm", "uramaki_zeewier", "uramaki_vegetarisch", "uramaki_tempura_ebi"};
+                    drawProducts(uramakiArray);
+                    break;
+                case "maki":
+                    imageView.setImageResource(R.drawable.maki);
+                    String makiArray[] = {"maki_avocado", "maki_zalm", "maki_komkommer", "maki_garnaal", "maki_daikon", "maki_tonijn"};
+                    drawProducts(makiArray);
+                    break;
                 default:
                     // code block
             }
@@ -70,32 +64,32 @@ public class Category extends AppCompatActivity {
     }
 
     public void drawProducts(String[] products) {
-        Log.i("Creating Views Products", "started");
 
-        // The layout the products go int
+        Log.i("Creating Views Products", "started");
+        // the layout the products go int
         LinearLayout ll = (LinearLayout) findViewById(R.id.ll);
 
-        // A for loop for every product
+        // a for loop for every product
         for (String product : products) {
-            // Loging the product name
+
+            // loging the product name
             Log.i("Creating View Product", product);
 
-            // Creates a layout for the text-layout and the image with the "holder" style
+            // creates a layout for the text-layout and the image with the "holder" style
             ConstraintLayout holder = new ConstraintLayout(new ContextThemeWrapper(this, R.style.holder));
             // todo: figure out why the margin isn't working (declared in styles.xml line 24
 
-            // Creates a textview to test if the string variable works with the "title" style
+            // creates a textview to test if the string variable works with the "title" style
             TextView text = new TextView(new ContextThemeWrapper(this, R.style.title));
 
-            // Nests it and it's it to the view
-            text.setText(getResources().getIdentifier(product, "string", getPackageName()));
 
+            // nests it and it's it to the view
+            text.setText((String) product);
             holder.addView(text);
             ll.addView(holder);
         }
 
-        // Confirms the function has finished
+        // confirms the function has finished
         Log.i("Creating Views Products", "ended");
     }
-
 }
