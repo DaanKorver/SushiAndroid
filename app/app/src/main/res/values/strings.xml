@@ -2,17 +2,12 @@
      <string name="app_name">All Day Sushi</string>
      <string name="nigiri_title">Nigiri</string>
      <string name="nigiri_text">Nigiri is een sushi soort waarbij een stukje vis op een bedje van rijst wordt geled. De warmte van de rijst vult de koude vis aan.</string>
-
      <string name="shasimi_title">Shasimi</string>
      <string name="shasimi_text">Sashimi is rauwe vis die zonder rijst word opgediend. De plakjes vis worden gegarneerd met wat zeewier onder de vis. Geserveerd als setje van zes plakjes.</string>
-
      <string name="uramaki_title">Uramaki</string>
      <string name="uramaki_text">Bij deze sushi wordt er meestal gebruik gemaakt van twee of meer soorten vullingen. Bij de Uramaki zitten de vulling en de zeewier aan de binnenkant.</string>
-
      <string name="maki_title">Maki</string>
      <string name="maki_text">De Maki wordt gemaakt van rijst en een vulling van vis, groente of ei en gerold in zeewier. De sushi-chef snijdt de ro vervolgens in vier of acht kleinere stukjes.</string>
-
-
 
      <!-- TEXT FOR DETAILS -->
      <string name="nigiri_tonijn">Tonijn</string>
