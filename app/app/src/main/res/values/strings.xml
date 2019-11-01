@@ -1,38 +1,84 @@
  <resources>
-    <string name="app_name">All Day Sushi</string>
-    <string name="nigiri_title">Nigiri</string>
-    <string name="nigiri_text">Nigiri is een sushi soort waarbij een stukje vis op een bedje van rijst wordt geled. De warmte van de rijst vult de koude vis aan.</string>
-    <string name="shasimi_title">Shasimi</string>
-    <string name="shasimi_text">Sashimi is rauwe vis die zonder rijst word opgediend. De plakjes vis worden gegarneerd met wat zeewier onder de vis. Geserveerd als setje van zes plakjes.</string>
-    <string name="uramaki_title">Uramaki</string>
-    <string name="uramaki_text">Bij deze sushi wordt er meestal gebruik gemaakt van twee of meer soorten vullingen. Bij de Uramaki zitten de vulling en de zeewier aan de binnenkant.</string>
-    <string name="maki_title">Maki</string>
-    <string name="maki_text">De Maki wordt gemaakt van rijst en een vulling van vis, groente of ei en gerold in zeewier. De sushi-chef snijdt de ro vervolgens in vier of acht kleinere stukjes.</string>
+     <string name="app_name">All Day Sushi</string>
+     <string name="nigiri_title">Nigiri</string>
+     <string name="nigiri_text">Nigiri is een sushi soort waarbij een stukje vis op een bedje van rijst wordt geled. De warmte van de rijst vult de koude vis aan.</string>
+     <string name="shasimi_title">Shasimi</string>
+     <string name="shasimi_text">Sashimi is rauwe vis die zonder rijst word opgediend. De plakjes vis worden gegarneerd met wat zeewier onder de vis. Geserveerd als setje van zes plakjes.</string>
+     <string name="uramaki_title">Uramaki</string>
+     <string name="uramaki_text">Bij deze sushi wordt er meestal gebruik gemaakt van twee of meer soorten vullingen. Bij de Uramaki zitten de vulling en de zeewier aan de binnenkant.</string>
+     <string name="maki_title">Maki</string>
+     <string name="maki_text">De Maki wordt gemaakt van rijst en een vulling van vis, groente of ei en gerold in zeewier. De sushi-chef snijdt de ro vervolgens in vier of acht kleinere stukjes.</string>
 
-    <!-- TEXT FOR DETAILS -->
-    <string name="nigiri_tonijn">Tonijn</string>
-    <string name="nigiri_miami">Miami</string>
-    <string name="nigiri_krab">Krab</string>
-    <string name="nigiri_omelet">Omelet</string>
-    <string name="nigiri_palling">Palling</string>
+     <!-- TEXT FOR DETAILS -->
+     <string name="nigiri_tonijn">Tonijn</string>
+     <string name="nigiri_tonijn_des">Rijst met daarop Tonijn</string>
 
-    <string name="shasimi_tataki_van_zalm">Tataki Van Zalm</string>
-    <string name="shasimi_menu_zalm">Menu Zalm</string>
-    <string name="shasimi_mix">Mix</string>
-    <string name="shasimi_tonijn">Tonijn</string>
-    <string name="shasimi_zalm">Zalm</string>
+     <string name="nigiri_miami">Miami</string>
+     <string name="nigiri_miami_des">Rijst met daarop Miami</string>
 
-    <string name="uramaki_pittig_tonijn">Pittig Tonijn</string>
-    <string name="uramaki_california">California</string>
-    <string name="uramaki_zalm">Zalm</string>
-    <string name="uramaki_zeewier">Zeewier</string>
-    <string name="uramaki_vegetarisch">Vegetarisch</string>
-    <string name="uramaki_tempura_ebi">Tempura Ebi</string>
+     <string name="nigiri_krab">Krab</string>
+     <string name="nigiri_krab_des">Rijst met daarop Krab</string>
 
-    <string name="maki_avocado">Avocado</string>
-    <string name="maki_zalm">Zalm</string>
-    <string name="maki_komkommer">Komkommer</string>
-    <string name="maki_garnaal">Garnaal</string>
-    <string name="maki_daikon">Daikon</string>
-    <string name="maki_tonijn">Tonijn</string>
+     <string name="nigiri_omelet">Omelet</string>
+     <string name="nigiri_omelet_des">Rijst met daarop Omelet</string>
+
+     <string name="nigiri_palling">Palling</string>
+     <string name="nigiri_palling_des">Rijst met daarop Palling</string>
+
+
+
+     <string name="shasimi_tataki_van_zalm">Tataki Van Zalm</string>
+     <string name="shasimi_tataki_van_zalm_des">Shasimi met Tataki van Zalm</string>
+
+     <string name="shasimi_menu_zalm">Menu Zalm</string>
+     <string name="shasimi_menu_zalm_des">Shasimi met een Menu van Zalm</string>
+
+     <string name="shasimi_mix">Mix</string>
+     <string name="shasimi_mix_des">Shasimi Mix</string>
+
+     <string name="shasimi_tonijn">Tonijn</string>
+     <string name="shasimi_tonijn_des">Shasimi met Tonijn</string>
+
+     <string name="shasimi_zalm">Zalm</string>
+     <string name="shasimi_zalm_des">Shasimi met Zalm</string>
+
+
+
+     <string name="uramaki_pittig_tonijn">Pittig Tonijn</string>
+     <string name="uramaki_pittig_tonijn_des">Uramaki met Pittige Tonijn</string>
+
+     <string name="uramaki_california">California</string>
+     <string name="uramaki_california_des">Uramaki met California</string>
+
+     <string name="uramaki_zalm">Zalm</string>
+     <string name="uramaki_zalm_des">Uramaki met Zalm</string>
+
+     <string name="uramaki_zeewier">Zeewier</string>
+     <string name="uramaki_zeewier_des">Uramaki met Zeewier</string>
+
+     <string name="uramaki_vegetarisch">Vegetarisch</string>
+     <string name="uramaki_vegetarisch_des">Uramaki met Vegatarische Ingredienten</string>
+
+     <string name="uramaki_tempura_ebi">Tempura Ebi</string>
+     <string name="uramaki_tempura_ebi_des">Uramaki met Tempura Ebi</string>
+
+
+
+     <string name="maki_avocado">Avocado</string>
+     <string name="maki_avocado_des">Maki met Avocado</string>
+
+     <string name="maki_zalm">Zalm</string>
+     <string name="maki_zalm_des">Maki met Zalm</string>
+
+     <string name="maki_komkommer">Komkommer</string>
+     <string name="maki_komkommer_des">Maki met Komkommer</string>
+
+     <string name="maki_garnaal">Garnaal</string>
+     <string name="maki_garnaal_des">Maki met Garnaal</string>
+
+     <string name="maki_daikon">Daikon</string>
+     <string name="maki_daikon_des">Maki met Daikon</string>
+
+     <string name="maki_tonijn">Tonijn</string>
+     <string name="maki_tonijn_des">Maki met Tonijn</string>
 </resources>
