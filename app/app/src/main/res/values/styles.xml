@@ -1,0 +1,62 @@
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+<<<<<<< HEAD
+=======
+    <style name="holder" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#e1e1e1</item>
+        <!--todo: why isn't the margin working but the background is?-->
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+>>>>>>> 29138dfd7ea6a2cbc097dabe4684b874dc9009a0
+    <style name="image" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">#999</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+    </style>
+
+    <style name="title" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:color">#f00</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+<<<<<<< HEAD
+    <style name="holder">
+        <item name="android:background">#e1e1e1</item>
+        <!--todo: why isn't the margin working but the background is?-->
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+=======
+>>>>>>> 29138dfd7ea6a2cbc097dabe4684b874dc9009a0
+</resources>
